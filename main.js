@@ -1,5 +1,5 @@
 const getProducts = async () => {
-    const { data } = await axios.get(`http://fakestoreapi.com/products`);
+    const { data } = await axios.get(`https://fakestoreapi.com/products`);
     const result = data
       .map((product) => {
         return `
